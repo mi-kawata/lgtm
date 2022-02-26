@@ -12,7 +12,6 @@ def cli(keyword, message):
     """LGTM画像生成ツール"""
     lgtm(keyword, message)
 
-
 def lgtm(keyword, message):
     with get_image(keyword) as fp:
         save_with_message(fp, message)

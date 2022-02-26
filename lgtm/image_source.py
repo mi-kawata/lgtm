@@ -3,7 +3,6 @@ from pathlib import Path
 
 import requests
 
-
 class LocalImage:
     """ファイルから画像を取得する"""
 
