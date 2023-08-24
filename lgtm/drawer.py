@@ -43,3 +43,4 @@ def save_with_message(fp, message):
             break
 
     image.save(OUTPUT_NAME, OUTPUT_FORMAT)
+#これで終わり
